@@ -6,6 +6,6 @@
   "main": "anti.css",
   "license": "MIT",
   "scripts": {
-    "deploy": "git add . && git commit -am \"Auto Deploy\" && git push"
+    "deploy": "git add . && git commit -am \"Auto Deploy\" && git push && yarn publish"
   }
 }
