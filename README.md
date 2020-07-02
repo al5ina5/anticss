@@ -23,7 +23,7 @@ import 'anticss'
 2. Link anti.css into your HTML file form the global CDN.
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/anticss@latest/anti.css" />
+<link rel="stylesheet" href="https://unpkg.com/anticss" />
 ```
 
 # More
