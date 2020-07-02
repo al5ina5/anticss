@@ -1,0 +1,11 @@
+{
+  "name": "anticss",
+  "version": "1.0.14",
+  "description": "A class-less CSS framework for prototyping web-apps.",
+  "author": "Sebastian Alsina",
+  "main": "anti.css",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "git add . && git commit -am \"Auto Deploy\" && git push"
+  }
+}
