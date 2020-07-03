@@ -162,7 +162,8 @@ button,
 label,
 img,
 cite,
-ul {
+ul,
+table {
     margin-bottom: 1rem;
 }
 
@@ -235,12 +236,15 @@ label {
     font-weight: 900;
 }
 
+input {
+    font-size: inherit;
+}
+
 input[type="submit"],
 button {
     -webkit-appearance: none;
     border-radius: 3px;
     border: none;
-    font-size: inherit;
 
     background-color: rgb(0, 102, 255);
     border-bottom: 5px solid rgba(0, 0, 0, 0.05);
