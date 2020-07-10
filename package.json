@@ -1,6 +1,6 @@
 {
   "name": "anticss",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A class-less CSS framework for prototyping web-apps.",
   "author": "Sebastian Alsina",
   "main": "anti.min.css",
