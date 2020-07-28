@@ -1,6 +1,6 @@
 {
   "name": "anticss",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A class-less CSS framework for prototyping web-apps.",
   "author": "Sebastian Alsina",
   "main": "anti.min.css",
@@ -9,5 +9,8 @@
     "push": "git add . && git commit -am \"Auto Deploy\" && git push",
     "minify": "uglifycss anti.css > anti.min.css",
     "deploy": "yarn run minify && yarn run push && yarn publish"
+  },
+  "devDependencies": {
+    "uglifycss": "^0.0.29"
   }
 }

@@ -264,6 +264,7 @@ button:hover {
 
 input[type="text"],
 input[type="password"],
+input[type="number"],
 input[type="email"] {
     -webkit-appearance: none;
     -moz-appearance: none;
