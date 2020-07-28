@@ -261,8 +261,7 @@ button {
 input[type="submit"]:hover,
 button:hover {
     background-color: rgb(31, 48, 145);
-    border-bottom: 5px solid rgba(0, 0, 0, 0);
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0);
 }
 
 input[type="text"],
