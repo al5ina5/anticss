@@ -230,8 +230,13 @@ pre {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 1rem;
     border-radius: 3px;
-    white-space: nowrap;
     overflow: scroll;
+}
+
+pre > code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
 }
 
 label {
